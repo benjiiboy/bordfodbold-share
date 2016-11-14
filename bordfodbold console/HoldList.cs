@@ -75,6 +75,13 @@ namespace bordfodbold_console
                 return null;
         }
 
+
+        public void ranks()
+        {
+            var navn = from hold in Holdliste
+                       orderby hold.Value.Antalgoal descending
+                       select hold;
+        }
     }
 }
 
