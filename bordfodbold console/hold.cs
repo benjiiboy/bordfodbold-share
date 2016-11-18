@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bordfodbold_console
 {
-    class hold
+  public  class hold
     {
         //instance field
         private string Holdnavn;
