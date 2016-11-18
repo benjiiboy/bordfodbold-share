@@ -76,17 +76,29 @@ namespace bordfodbold_console
         }
 
 
-        public void OrderByGoal()
+        public string OrderByGoal()
         {
-            var varnavn = from hold in Holdliste
-                          orderby hold.Value.Antalgoal() descending
-                          select hold;
+            
+
+            List<hold> tempListe = new List<hold>(Holdliste.Values);
+            tempListe.Sort(new HoldSort());
+
+            return string.Join("\n", tempListe);
+            
         }
 
 
 
 
 
+    }
+
+    class HoldSort : IComparer<hold>
+    {
+        public int Compare(hold x, hold y)
+        {
+            return x.Antalgoal()  - y.Antalgoal();
+        }
     }
 }
 

@@ -87,5 +87,11 @@ namespace bordfodbold_console
         {
             antalTabte = antalTabte + 1;
         }
+
+        public override string ToString()
+        {
+            return $"Hold={Holdnavn} Antal mål={goal}";
+        }
     }
+
 }

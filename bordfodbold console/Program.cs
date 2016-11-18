@@ -31,7 +31,7 @@ namespace bordfodbold_console
             MinListe.LookUpHold("hold2").AddVundet();
             MinListe.LookUpHold("hold3").AddVundet();
 
-
+            Console.WriteLine(MinListe.OrderByGoal());
             // tilføje
             MinListe.LookUpHold("hold1").Addgoal(5);
             //printer mål
