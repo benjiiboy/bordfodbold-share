@@ -90,7 +90,7 @@ namespace bordfodbold_console
 
         public override string ToString()
         {
-            return $"Hold={Holdnavn} Antal mål={goal}";
+            return $"Hold={Holdnavn} Antal Points={UdregnHoldPoint()}";
         }
     }
 
