@@ -17,20 +17,6 @@ namespace bordfodbold_console
             MinListe.AddHoldToList(new hold("hold2", "spiller1", "spiller2"));
 
 
-            MinListe.AddHoldToList(new hold("hold3", "spiller1", "spiller2"));
-            MinListe.AddHoldToList(new hold("hold4", "spiller1", "spiller2"));
-            MinListe.AddHoldToList(new hold("hold5", "spiller1", "spiller2"));
-            MinListe.AddHoldToList(new hold("hold6", "spiller1", "spiller2"));
-            MinListe.AddHoldToList(new hold("hold7", "spiller1", "spiller2"));
-
-            MinListe.LookUpHold("hold3").AddVundet();
-            MinListe.LookUpHold("hold3").AddVundet();
-            MinListe.LookUpHold("hold4").AddVundet();
-            MinListe.LookUpHold("hold3").AddVundet();
-            MinListe.LookUpHold("hold1").AddVundet();
-            MinListe.LookUpHold("hold2").AddVundet();
-            MinListe.LookUpHold("hold3").AddVundet();
-
             Console.WriteLine(MinListe.OrderByGoal());
             // tilføje
             MinListe.LookUpHold("hold1").Addgoal(5);
