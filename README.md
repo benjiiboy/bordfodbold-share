@@ -4,15 +4,15 @@ Upload.
 
 
 Hvad mangler:
-Metoder – der mangler en metode der kan udskrive alle hold efter points – altså en rank liste.
 •	Fjerne hold?
 •	Udskifte spille?
 Metoder skal tilpasses blend
 
 
 Blend: 
-Udkast til hvordan skærmen kan se ud: 
-http://imgur.com/a/QWs04
+Benjamin har lavet et design som kan bruges
+nu skal det bare bindes og tilpasses
+https://github.com/benjiiboy/Bordfodbold-overlay
 
 
 lav meget gerne om eller kom med ændringer!
